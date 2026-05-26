@@ -1,1 +1,2 @@
 # HarvardX-IDV-CTR-Predictor-Avazu
+Developed two high-precision CTR predictive models on the Avazu mobile ads dataset: a standalone LightGBM model (127-leaf decision trees, AUC 0.7540, LogLoss 0.3940) and a hybrid ensemble combining Matrix Factorization with LightGBM (AUC 0.7475, LogLoss 0.4024). Both models transform millions of sparse, high-cardinality data points into calibrated click probabilities for real-time bidding, minimising wasted ad spend and reducing Cost Per Acquisition.
